@@ -1,4 +1,4 @@
-# YAPL: A Statically-Typed, General-Purpose Programming Language
+# YAPL (Yet Another Programming Language)
 
 YAPL is a statically-typed, general-purpose programming language designed for ease of use, maintainability, and performance.  
 It supports multiple paradigms and offers features like type inference, pattern matching, and a powerful type system.  

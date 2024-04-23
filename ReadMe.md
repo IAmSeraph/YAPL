@@ -1,12 +1,12 @@
-# YAPL: A Statically-Typed, General-Purpose Programming Language
+# YAPL (Yet Another Programming Language)
 
 **YAPL** is a statically-typed, general-purpose programming language designed for ease of use, maintainability, and performance.  
 It supports multiple paradigms and offers features like type inference, pattern matching, and a powerful type system.  
-YAPL aims to address common issues in other languages by focusing on simplicity, clarity, and readability.  
+**YAPL** aims to address common issues in other languages by focusing on simplicity, clarity, and readability.  
 
 ## Comparison with Similar Languages
 
-YAPL combines the best features of languages like TypeScript, Rust, and Swift, offering a unique blend of type safety, performance, and usability.  
+**YAPL** combines the best features of languages like TypeScript, Rust, and Swift, offering a unique blend of type safety, performance, and usability.  
 Its powerful type system and type inference capabilities enable developers to write robust and maintainable code with ease.  
 
 ## Syntax
@@ -126,12 +126,12 @@ using namespace std;
 
 ## Supported Paradigms
 
-YAPL supports object-oriented, functional, and procedural paradigms.  
+**YAPL** supports object-oriented, functional, and procedural paradigms.  
 It allows multi-paradigm programming, enabling developers to choose the most suitable paradigm for their projects.  
 
 ## Powerful Type System
 
-YAPL's type system includes features like type unions, generics, and type inference.  
+**YAPL**'s type system includes features like type unions, generics, and type inference.  
 It supports both static and dynamic typing, offering flexibility and safety.  
 
 Example:
@@ -143,7 +143,7 @@ func add(a: int | float, b: int | float): int | float {
 
 ## Standard Library
 
-YAPL's standard library includes data structures like `std::vector` and `std::map`.  
+**YAPL**'s standard library includes data structures like `std::vector` and `std::map`.  
 These data structures offer improved performance and functionality compared to similar structures in languages like C++ or Java.  
 
 Example:
@@ -166,7 +166,7 @@ main(): int {
 
 ## User-defined Data Types
 
-YAPL allows users to define custom data types using the `type` keyword.
+**YAPL** allows users to define custom data types using the `type` keyword.
 
 Example:
 ```csharp
@@ -175,7 +175,7 @@ type Point = (x: int, y: int);
 
 ## The `using` Keyword
 
-The `using` keyword in YAPL facilitates type and namespace aliasing.
+The `using` keyword in **YAPL** facilitates type and namespace aliasing.
 
 Example:
 ```csharp
@@ -185,7 +185,7 @@ using namespace std;
 
 ## Future Directions
 
-YAPL is under active development, with planned features including:
+**YAPL** is under active development, with planned features including:
 
 - Improved error handling
 - Enhanced support for concurrency and parallelism
@@ -195,4 +195,4 @@ YAPL is under active development, with planned features including:
 ## Acknowledgements
 
 We appreciate the feedback and suggestions provided by the community.  
-Your contributions are invaluable in shaping the future of YAPL.  
+Your contributions are invaluable in shaping the future of **YAPL**.  
