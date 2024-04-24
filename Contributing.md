@@ -1,3 +1,12 @@
+## Table of Contents
+  1. [Contributing to YAPL](#contributing-to-yapl)
+  2. [Reporting Issues](#reporting-issues)  
+  3. [Submitting Pull Request](#submitting-pull-requests)  
+  4. [Code Guidelines](#code-guidelines)  
+  5. [Code of Conduct](#code-of-conduct)  
+  6. [License](#license)  
+  7. [Contact](#contact)  
+
 # Contributing to YAPL
 
 Thank you for your interest in contributing to YAPL!  

@@ -1,3 +1,16 @@
+## Table of Contents
+
+  1. [Basic Types](#basic-types)  
+  2. [Variables](#variables)  
+  3. [Control Structures](#control-structures)  
+  3.1. [Conditionals](#conditionals)  
+  3.2. [Loops](#loops)  
+  4. [Functions](#functions)  
+  5. [Classes](#classes)  
+  6. [User-defined Data Types](#user-defined-data-types)  
+  7. [The `using` Keyword](#the-using-keyword)  
+  8. [Preprocessor Directives](#preprocessor-directives)  
+
 ## Syntax Specification
 
 ### Basic Types
@@ -142,7 +155,7 @@ main() {
 }
 ```
 
-In this example, the `#include` directive is used to include the `stdio.h` standard library.  
+In this example, the `#include` directive is used to include the `std::io` standard library.  
 The `#define` directive is used to define a constant value `MAX_SIZE` and a macro `LOG`.  
 The `#ifdef` and `#ifndef` directives are used to conditionally define the `LOG` macro based on the `DEBUG` preprocessor symbol.  
 The `#else` and `#elif` directives can be used for more complex conditional compilation.

@@ -89,7 +89,7 @@ main() { let array = new int[MAX\_SIZE]; let i;
     return 0;
 }
 
-In this example, the #include directive is used to include the stdio.h standard library. 
-The #define directive is used to define a constant value MAX\_SIZE and a macro LOG. 
+In this example, the #include directive is used to include the std::io standard library. 
+The #define directive is used to define a constant value MAX_SIZE and a macro LOG. 
 The #ifdef and #ifndef directives are used to conditionally define the LOG macro based on the DEBUG preprocessor symbol. 
 The #else and #elif directives can be used for more complex conditional compilation.

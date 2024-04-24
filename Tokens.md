@@ -1,3 +1,16 @@
+## Table of Contents
+
+  1. [Comment](#comment)  
+  2. [Keyword](#keyword)  
+  3. [Boolean](#boolean)  
+  4. [Type](#type)  
+  5. [Delimiter](#delimiter)  
+  6. [Operator](#operator)  
+  7. [Integer](#integer)  
+  8. [Floating-point](#floating-point)  
+  9. [String](#string)  
+  10. [Identifier](#identifier)  
+
 ## Token Specification
 
 ### Comment
