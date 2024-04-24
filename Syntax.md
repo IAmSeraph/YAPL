@@ -115,12 +115,12 @@ using namespace std;
 
 ## Supported Paradigms
 
-**YAPL** supports object-oriented, functional, and procedural paradigms.  
+YAPL supports object-oriented, functional, and procedural paradigms.  
 It allows multi-paradigm programming, enabling developers to choose the most suitable paradigm for their projects.  
 
 ## Powerful Type System
 
-**YAPL**'s type system includes features like type unions, generics, and type inference.  
+YAPL's type system includes features like type unions, generics, and type inference.  
 It supports both static and dynamic typing, offering flexibility and safety.  
 
 Example:
@@ -132,7 +132,7 @@ func add(a: int | float, b: int | float): int | float {
 
 ## Standard Library
 
-**YAPL**'s standard library includes data structures like `std::vector` and `std::map`.  
+YAPL's standard library includes data structures like `std::vector` and `std::map`.  
 These data structures offer improved performance and functionality compared to similar structures in languages like C++ or Java.  
 
 Example:
@@ -155,7 +155,7 @@ main(): int {
 
 ## User-defined Data Types
 
-**YAPL** allows users to define custom data types using the `type` keyword.
+YAPL allows users to define custom data types using the `type` keyword.
 
 Example:
 ```csharp
@@ -164,7 +164,7 @@ type Point = (x: int, y: int);
 
 ## The `using` Keyword
 
-The `using` keyword in **YAPL** facilitates type and namespace aliasing.
+The `using` keyword in YAPL facilitates type and namespace aliasing.
 
 Example:
 ```csharp

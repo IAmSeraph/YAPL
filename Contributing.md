@@ -39,6 +39,6 @@ YAPL is released under the [MIT License](./LICENSE.md).
 
 ## Contact
 
-For any questions or concerns, please contact the project maintainers at <yapl@iamseraph.com>.  
+For any questions or concerns, please contact the project maintainers at [yapl@iamseraph.com](mailto:yapl@iamseraph.com).  
 
 Thank you for contributing to YAPL!  
