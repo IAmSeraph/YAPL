@@ -113,65 +113,6 @@ Example:
 using namespace std;
 ```
 
-## Supported Paradigms
-
-YAPL supports object-oriented, functional, and procedural paradigms.  
-It allows multi-paradigm programming, enabling developers to choose the most suitable paradigm for their projects.  
-
-## Powerful Type System
-
-YAPL's type system includes features like type unions, generics, and type inference.  
-It supports both static and dynamic typing, offering flexibility and safety.  
-
-Example:
-```csharp
-func add(a: int | float, b: int | float): int | float {
-  return a + b;
-}
-```
-
-## Standard Library
-
-YAPL's standard library includes data structures like `std::vector` and `std::map`.  
-These data structures offer improved performance and functionality compared to similar structures in languages like C++ or Java.  
-
-Example:
-```csharp
-#include <std::vector>
-
-main(): int {
-  std::vector<int> numbers;
-  numbers.push_back(1);
-  numbers.push_back(2);
-  numbers.push_back(3);
-
-  for (int i = 0; i < numbers.size(); i++) {
-    std::out.write("${numbers[i]} ");
-  }
-
-  return 0;
-}
-```
-
-## User-defined Data Types
-
-YAPL allows users to define custom data types using the `type` keyword.
-
-Example:
-```csharp
-type Point = (x: int, y: int);
-```
-
-## The `using` Keyword
-
-The `using` keyword in YAPL facilitates type and namespace aliasing.
-
-Example:
-```csharp
-using short_name = long_type_name;
-using namespace std;
-```
-
 ## Preprocessor Directives
 
 Here's an example of how these preprocessor directives could be used in YAPL:
@@ -201,4 +142,7 @@ main() {
 }
 ```
 
-In this example, the `#include` directive is used to include the `stdio.h` standard library. The `#define` directive is used to define a constant value `MAX_SIZE` and a macro `LOG`. The `#ifdef` and `#ifndef` directives are used to conditionally define the `LOG` macro based on the `DEBUG` preprocessor symbol. The `#else` and `#elif` directives can be used for more complex conditional compilation.
+In this example, the `#include` directive is used to include the `stdio.h` standard library.  
+The `#define` directive is used to define a constant value `MAX_SIZE` and a macro `LOG`.  
+The `#ifdef` and `#ifndef` directives are used to conditionally define the `LOG` macro based on the `DEBUG` preprocessor symbol.  
+The `#else` and `#elif` directives can be used for more complex conditional compilation.

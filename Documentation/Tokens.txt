@@ -1,6 +1,8 @@
-## Token Specification
+Token Specification
+====================
 
-### Comment
+Comment
+--------
 
 A comment is a sequence of characters that is ignored by the compiler. There are two types of comments:
 
@@ -9,7 +11,8 @@ A comment is a sequence of characters that is ignored by the compiler. There are
 
 Regular Expression: `/(\/\/[^\n]*\n)|(\/\*[^*]*\*+([^\/][^*]*\*+)*\/\n)/`
 
-### Keyword
+Keyword
+--------
 
 Keywords are reserved words that have a special meaning in the language. The following words are keywords in YAPL:
 
@@ -32,13 +35,15 @@ Keywords are reserved words that have a special meaning in the language. The fol
 
 Regular Expression: `/(let|const|if|else|for|foreach|while|do|while|func|class|type|using|public|protected|private)\b/`
 
-### Boolean
+Boolean
+--------
 
 Boolean values represent true or false. The two boolean values are `true` and `false`.
 
 Regular Expression: `/(true|false)\b/`
 
-### Type
+Type
+-----
 
 Types define the data type of a value. The following types are defined in YAPL:
 
@@ -51,7 +56,8 @@ Types define the data type of a value. The following types are defined in YAPL:
 
 Regular Expression: `/(int|float|bool|string|array|tuple)\b/`
 
-### Delimiter
+Delimiter
+----------
 
 Delimiters are special characters that are used to separate elements in the language. The following characters are delimiters in YAPL:
 
@@ -67,7 +73,8 @@ Delimiters are special characters that are used to separate elements in the lang
 
 Regular Expression: `/(\()|(\))|(\[)|\]|(\{)|(\})|(,)|(;)|(\.)/`
 
-### Operator
+Operator
+---------
 
 Operators are symbols that represent mathematical or logical operations. The following operators are defined in YAPL:
 
@@ -95,25 +102,29 @@ Operators are symbols that represent mathematical or logical operations. The fol
 
 Regular Expression: `/(\+)|(-)|(\*)|(\/)|(\%)|(<)|(<=)|(>)|(>=)|(==)|(!=)|(=)|(!)|(&&)|(\|\|)|(&)|(\|)|(\^)|(~)|(<<)|(>>)/`
 
-### Integer
+Integer
+--------
 
 An integer is a whole number. It can be represented in decimal, hexadecimal, or binary format.
 
 Regular Expression: `/(0[xX][0-9a-fA-F]+)|(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?/`
 
-### Floating-point
+Floating-point
+---------------
 
 A floating-point number is a number with a fractional part. It can be represented in decimal or scientific notation.
 
 Regular Expression: `/(0[xX][0-9a-fA-F]+)|(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?/`
 
-### String
+String
+-------
 
 A string is a sequence of characters enclosed in double quotes.
 
 Regular Expression: `/"(\\.|[^"])*"/`
 
-### Identifier
+Identifier
+-----------
 
 An identifier is a name given to a variable, constant, function, or class. It consists of a letter followed by any number of letters, digits, or underscores.
 
