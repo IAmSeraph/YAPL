@@ -1,12 +1,15 @@
 # Notice
 
-This project is currently in the design phase.  
-We are actively working on defining the architecture, requirements, and functionality of the project.  
+This project is not associated with Xavier Leroy's paper titled "Yet Another Programming Language" (YAPL),  
+which was published in 1991. While the name of this project is similar to the title of that paper,  
+it is a distinct and separate effort that is not affiliated with Xavier Leroy or his work.  
 
-As we move closer to completing the design phase, we will begin the development phase,  
-where we will start building the tooling and implementing the features outlined in the design.  
+The YAPL programming language described in Xavier Leroy's paper is a functional  
+programming language that was developed for teaching and research in functional programming.  
+The YAPL project on GitHub, on the other hand, is a general purpose programming language  
+that combines features from many different languages including features such as pattern matching, type inference, and garbage collection.
 
-We appreciate your interest in the project and encourage you to stay tuned for updates.  
-In the meantime, please feel free to review the design documents and provide any feedback or suggestions.  
+While both projects share some similarities, they are distinct and separate efforts that address different goals and use cases.  
 
-Thank you for your support!
+We hope that this clarification helps to avoid any confusion or misunderstandings.  
+If you have any questions or concerns, please don't hesitate to contact us.

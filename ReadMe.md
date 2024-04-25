@@ -1,6 +1,7 @@
 # YAPL (Yet Another Programming Language)
 
-[![Status](https://img.shields.io/badge/Status-Design%20Phase-yellow.svg)](./Notice.md)
+[![Status](https://img.shields.io/badge/Status-Design%20Phase-yellow.svg)](./Status.md)
+[![Status](https://img.shields.io/badge/Notice-Xavier%20Leroy-red.svg)](./Notice.md)
 
 YAPL is a statically-typed, general-purpose programming language designed for ease of use, maintainability, and performance.  
 It supports multiple paradigms and offers features like type inference, pattern matching, and a powerful type system.  
